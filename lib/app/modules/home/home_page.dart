@@ -31,8 +31,7 @@ class _HomePageState extends State<HomePage> {
                 child: Text("Ir pra outro modulo")),
             SizedBox(height: 20),
             InkWell(
-                onTap: () => Modular.to.pushNamed("/teste/",
-                    arguments: "argumento string pro teste"),
+                onTap: () => Modular.to.pushNamed("/teste/"),
                 child: Text("Ir pra teste modulo"))
           ],
         ),
